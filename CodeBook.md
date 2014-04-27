@@ -12,10 +12,12 @@ Fast Fourier Transform (FFT) was applied to some of these signals.
 
 After collecting all these signals, mean and standard deviations were applied.
 
+After collecting data, it was grouped by userId and activity, and mean was performed on such data set.
 Variables
 =========
 
-
+* "userId"- subject ID
+* "activity"- activity of the subject (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 * "tBodyAcc-mean()-X" -                Time Body Acceleration mean on X
 * "tBodyAcc-mean()-Y" -                Time Body Acceleration mean on Y
 * "tBodyAcc-mean()-Z" -                Time Body Acceleration mean on Z
